@@ -1,4 +1,4 @@
-
+//Submitted by Venkata Krishna Kanth Musunuru.
 /**Program 1: Write a program to take the inputs in the following order and 
  * display the result as shown below.
 Your program should use primitive arrays and for loop to get this work.

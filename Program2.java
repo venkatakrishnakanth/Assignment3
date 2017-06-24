@@ -1,4 +1,4 @@
-
+// Submitted by Venkata Krishna Kanth Musunuru
 
 /**Write a program to take the inputs in the following order and display the result as shown below.
 Your program should use primitive arrays and control stmts to get this work.

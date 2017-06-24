@@ -1,5 +1,4 @@
-
-
+//Submitted by Venkata Krishna kanth Musunuru.
 /** Write a program to take the inputs in the following order and display the result as shown below.
 Your program should use Student Object to store the Student details(id,name …) 
 and store them in Array of Student type.
