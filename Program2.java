@@ -31,9 +31,11 @@ public class Program2 {
 		double[] fee = new double[numOfStudents];
 		char[] section = new char[numOfStudents];
 		storeData(numOfStudents,0,id,name,fee,section);
+		System.out.println("Enter the section you want to search:");
+		char secn = s.next().charAt(0);
 		System.out.println("\n\n********* Result *****************");
 		System.out.println("id\tname\tfee\tsection");
-		display(numOfStudents,0,id,name,fee,section);		
+		display(numOfStudents,0,id,name,fee,section,secn);		
 			
 	}
 	
@@ -53,12 +55,13 @@ public class Program2 {
 			storeData(numofstudents,i,id,name,fee,section);
 		}
 	}
-	private static void display(int numofstudents, int i, int[] id, String[] name, double[] fee, char[] section) {
+	private static void display(int numofstudents, int i, int[] id, String[] name, double[] fee, char[] section, char secn) {
 		
 		if(i<numofstudents){
-			System.out.println(id[i]+"\t"+name[i]+"\t"+fee[i]+"\t"+section[i]);
+			if(section[i]==secn){
+			System.out.println(id[i]+"\t"+name[i]+"\t"+fee[i]+"\t"+section[i]);}
 			i++;
-			display(numofstudents,i,id,name,fee,section);
+			display(numofstudents,i,id,name,fee,section,secn);
 		}
 		
 	}
